@@ -72,7 +72,7 @@ margin-left: 5%;
   font-size: 20px;
   line-height: 36px;
 /* or 129% */
-
+ 
   letter-spacing: 0.035em;
   width: 80%;
 
@@ -317,8 +317,40 @@ padding: 10px 28px;
 }
 
 @media screen and (max-width: 700px) {
+    .role-name {
+      font-size: 17px;
+    }
+
+    .role-loc {
+        font-size: 17px;
+    }
+
+
     .role-desc {
+      width: 95%;
+      font-size: 16px;
+
+    }
+
+    .role-header button {
+      padding: 8px 19px;
+      font-size: 16px;
+    }
+
+    .value-item p {
+      font-size: 17px;
+    }
+
+    .value-item h1 {
+       font-size: 22px;
+    }
+
+    .careers-join p:not(.title) {
       width: 90%;
+    }
+
+    .careers-join .title {
+      font-size: 35px;
     }
 }
 

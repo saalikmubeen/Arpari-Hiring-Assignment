@@ -37,7 +37,7 @@ ul {
 
 .nav ul {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   gap: 25px;
   width: 90%
@@ -75,11 +75,6 @@ background: #20335E;
 
 border: 1px solid #20335E;
 transform: rotate(90deg);
-
-/* Inside auto layout */
-
-order: 4;
-flex-grow: 0;
 }
 
 
@@ -220,7 +215,7 @@ color: #20335E;
     }
 
     .section-head .headline h3 {
-      font-size: 10px;
+      font-size: 14px;
     }
 
     .section-head .goal p {
@@ -301,8 +296,8 @@ color: #20335E;
   transform-origin: center;
 }
 
-.line {
-    visibility: collapse;
+.nav-line {
+    display: none;
 }
 
 

@@ -287,3 +287,18 @@ margin-left: 5%;
 } */
 
 }
+
+@media screen and (max-width: 600px) {
+    .about-approach h3, .about-approach h3 {
+          font-size: 18px;
+    }
+
+    .mission-item p {
+      font-size: 17px;
+    }
+
+    .mission-item h1 {
+      font-size: 22px;
+    }
+}
+

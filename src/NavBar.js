@@ -21,7 +21,7 @@ const NavBar = () => {
 
               <li>Blog</li>
 
-              <li>
+              <li className="nav-line">
                   <span className="line"></span>
               </li>
 

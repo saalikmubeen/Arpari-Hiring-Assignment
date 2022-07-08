@@ -120,13 +120,11 @@ align-self: flex-start;
   }
 
   .contact-info {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 40px;
     
   }
 
   .map p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
