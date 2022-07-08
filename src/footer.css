@@ -1,0 +1,167 @@
+footer {
+ 
+width: 100vw;
+/* height: 322px; */
+padding: 50px 16px;
+padding-bottom: 70px;
+
+/* Grey Blue */
+
+background: #F4F7F9;
+
+display: grid;
+row-gap: 20px;
+column-gap: 20px;
+grid-template-columns: repeat(10, 1fr);
+/* grid-template-columns: repeat(auto-fit, minmax(200px, min-content)); */
+grid-auto-flow: row dense;
+}
+
+
+.footer  h2 {
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 30px;
+
+/* Dark Blue */
+
+color: #243458;
+margin-bottom: 20px;
+}
+
+.footer div {
+  /* border: 1px solid red; */
+  /* margin: 0 auto; */
+  margin-left: 20px;
+}
+
+.footer p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+/* Dark Blue */
+
+color: #243458;
+margin-bottom: 7px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #243458;
+}
+
+.footer-img {
+  grid-column: 1 / 3;
+}
+
+
+.footer-img img {
+  width: 100px;
+}
+
+
+.footer-account {
+  grid-column: 3 / 5;
+}
+
+.footer-support {
+  grid-column: 5 / 6;
+}
+
+.footer-product {
+  grid-column: 6 / 8;
+}
+
+.footer-company {
+  grid-column: 8 / 9;
+}
+
+.footer-social {
+  grid-column: 9 / 11;
+}
+
+.footer-social img {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+
+  footer {
+    grid-template-rows: repeat(2, min-content);
+  }
+
+  .footer-img {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+
+.footer-account {
+  grid-row: 1 / 2;
+  grid-column: 3 / 7;
+}
+
+.footer-support {
+  grid-row: 2 / 3;
+  grid-column: 4 / 7;
+}
+
+.footer-product {
+  grid-row: 1 / 2;
+  grid-column: 7 / 11;
+}
+
+.footer-company {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+}
+
+.footer-social {
+  grid-row: 2 / 3;
+  grid-column: 7 / 11;
+}
+}
+
+
+@media screen and (max-width: 550px) {
+
+  footer {
+    grid-template-rows: repeat(3, min-content);
+  }
+
+  .footer-img {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+}
+
+
+.footer-account {
+  grid-row: 1 / 2;
+  grid-column: 5 / 11;
+}
+
+.footer-support {
+  grid-row: 3 / 4;
+  grid-column: 1 / 4;
+}
+
+.footer-product {
+  grid-row: 2 / 3;
+  grid-column: 1 / 7;
+}
+
+.footer-company {
+  grid-row: 2 / 3;
+  grid-column: 7 / 11;
+}
+
+.footer-social {
+  grid-row: 3 / 4;
+  grid-column: 4 / 11;
+}
+}
