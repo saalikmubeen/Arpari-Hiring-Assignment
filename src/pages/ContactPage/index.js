@@ -1,8 +1,8 @@
-import NavBar from "./NavBar";
-import map from "./map.jpg";
-import Footer from "./Footer";
-import Blank from "./Blank";
-import "./contact.css";
+import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
+import Blank from "../../components/Blank";
+import map from "../../images/map.jpg";
+import "./styles.css";
 
 function ContactPage() {
     return (

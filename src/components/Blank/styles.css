@@ -1,0 +1,12 @@
+
+.blank {
+  height: 250px;
+  position: relative;
+}
+
+.blank img {
+  height: 80px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}

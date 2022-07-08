@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import logo from "./logo.png";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
-import ig from "./ig.svg";
-import fb from "./fb.svg";
-import "./footer.css";
+import logo from "../../images/logo.png";
+import linkedin from "../../images/linkedin.svg";
+import twitter from "../../images/twitter.svg";
+import ig from "../../images/ig.svg";
+import fb from "../../images/fb.svg";
+import "./styles.css";
 
 const Footer = () => {
   return (

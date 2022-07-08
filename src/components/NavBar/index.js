@@ -1,5 +1,8 @@
 import React from 'react'
-import logo from "./logo.png";
+import logo from "../../images/logo.png";
+import "./styles.css";
+
+
 const NavBar = () => {
   return (
       <nav className="nav">

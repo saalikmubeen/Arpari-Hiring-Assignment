@@ -1,13 +1,12 @@
-import office from "./office.jpg";
-import technology from "./technology.svg";
-import service from "./service.svg";
-import solution from "./solution.svg";
-import Footer from "./Footer";
-import NavBar from "./NavBar";
-import "./App.css";
-import SectionHead from "./SectionHead";
-import Blank from "./Blank";
-import "./about.css";
+import office from "../../images/office.jpg";
+import technology from "../../images/technology.svg";
+import service from "../../images/service.svg";
+import solution from "../../images/solution.svg";
+import Footer from "../../components/Footer";
+import NavBar from "../../components/NavBar";
+import SectionHead from "../../components/SectionHead";
+import Blank from "../../components/Blank";
+import "./styles.css";
 
 function AboutPage() {
     return (
@@ -42,8 +41,6 @@ function AboutPage() {
                 <div className="office-img">
                     <img src={office} alt="office" />
                 </div>
-
-                {/* <img src={office} alt="office" className="office-img" /> */}
 
                 <div className="about-approach">
                     <h3>Our Approach</h3>

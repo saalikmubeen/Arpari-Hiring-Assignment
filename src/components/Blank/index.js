@@ -1,5 +1,6 @@
 import React from 'react';
-import message from "./message.svg";
+import message from "../../images/message.svg";
+import "./styles.css";
 
 const Blank = () => {
   return (

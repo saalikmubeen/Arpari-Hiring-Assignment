@@ -1,31 +1,16 @@
-import { useEffect } from "react";
 import {
   BrowserRouter,
   Routes,
   Route,
-  useLocation
 } from "react-router-dom";
 
-import AboutPage from "./AboutPage";
-import CareersPage from './CareersPage';
-import ContactPage from "./ContactPage";
+import AboutPage from "./pages/AboutPage";
+import CareersPage from './pages/CareersPage/index.js';
+import ContactPage from "./pages/ContactPage";
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 
-function ScrollToTop()  {
-    const { pathname } = useLocation();
-
-    useEffect(() => {
-        // "document.documentElement.scrollTo" is the magic for React Router Dom v6
-        document.documentElement.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: "instant", // Optional if you want to skip the scrolling animation
-        });
-    }, [pathname]);
-
-    return null;
-}
 
 
 function App() {
